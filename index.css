@@ -46,13 +46,12 @@ header{
 
 #pic{
     position: absolute;
-    z-index: -1;
     background-repeat: no-repeat;
     background-position: center;
     top: 120px;
     right: 0px;
-    width: 100%;
-    overflow: hidden;
+    height: 100%;
+    margin-bottom: 40px;
 }
 
 #but{
@@ -103,14 +102,14 @@ header{
 }
 
 
-footer{
+.footer{
     position: absolute;
     background-color: #180F34;
     width: 100vw;
     height: 40px;
     padding: 20px;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
 }
 
 .copyright{
