@@ -6,7 +6,6 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position-x: right;
-    overflow-x:hidden;
     overflow: hidden;
 }
 
@@ -53,7 +52,7 @@ header{
     top: 120px;
     right: 0px;
     width: 100%;
-
+    overflow: hidden;
 }
 
 #but{
