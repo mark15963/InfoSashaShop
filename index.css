@@ -62,8 +62,8 @@ header{
     width: 245px;
     height: 69px;
     border-radius: 35px;
-    top: 545px;
-    left: 240px;
+    top: 50%;
+    left: 50%;
     transition: all 0.3s;
     cursor: pointer;
 }
