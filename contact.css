@@ -7,7 +7,6 @@
 body{
     display: flex;
     justify-content: center;
-    min-height: 100vw;
     background: #1e143d;
     margin-top: 10%;
 }
@@ -23,7 +22,6 @@ body{
 .contact form{
     width: 600px;
     text-align: center;
-
 }
 
 form .input-box{
@@ -34,7 +32,6 @@ form .input-box{
 
 .input-box .input-field{
     width: 48.5%;
-
 }
 
 .field .item{
