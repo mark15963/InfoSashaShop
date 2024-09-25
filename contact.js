@@ -11,7 +11,7 @@ function sendEmail(){
 
     Email.send({
         SecureToken : "ee58a901-1e7f-4af4-a9fb-94252632ef9e",
-        To : "20wildpony02@gmail.com",
+        To : "mark15963@gmail.com",
         From : "mark15963@gmail.com",
         Subject : subject.value,
         Body : bodyMessage

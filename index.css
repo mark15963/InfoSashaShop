@@ -44,12 +44,17 @@ header{
     color: whitesmoke;
 }
 
+section{
+    position: relative;
+}
+
 #pic{
     position: absolute;
+    display: block;
     background-repeat: no-repeat;
     background-position: center;
+    transform: translateX(-50%);
     top: 120px;
-    right: 0px;
     height: 100%;
     margin-bottom: 40px;
 }
@@ -62,8 +67,9 @@ header{
     width: 245px;
     height: 69px;
     border-radius: 35px;
-    top: 50%;
+    bottom: 120px;
     left: 50%;
+    transform: translateX(-50%);
     transition: all 0.3s;
     cursor: pointer;
 }
@@ -105,6 +111,7 @@ header{
 .footer{
     position: absolute;
     background-color: #180F34;
+    background-position: bottom;
     width: 100vw;
     height: 40px;
     padding: 20px;
@@ -127,7 +134,8 @@ header{
     color: whitesmoke;
     border: none;
     cursor: pointer;
-    right: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
     top: 30px;
     text-decoration: none;
 }
