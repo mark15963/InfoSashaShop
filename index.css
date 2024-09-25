@@ -6,7 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position-x: right;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 header{
@@ -44,19 +44,16 @@ header{
     color: whitesmoke;
 }
 
-section{
-    position: relative;
-}
-
 #pic{
-    position: absolute;
     display: block;
     background-repeat: no-repeat;
     background-position: center;
-    transform: translateX(-50%);
-    top: 120px;
-    height: 100%;
-    margin-bottom: 40px;
+    top: 110px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 #but{
@@ -108,15 +105,15 @@ section{
 }
 
 
-.footer{
+footer{
     position: absolute;
     background-color: #180F34;
-    background-position: bottom;
     width: 100vw;
     height: 40px;
     padding: 20px;
     left: 0;
     bottom: 0;
+    
 }
 
 .copyright{
@@ -140,14 +137,14 @@ section{
     text-decoration: none;
 }
 
-#contacts:hover{
-    color:#a9a6b6;
+#contact:hover{
+    color:#c2bfce;
 }
 
 #link1{
     position: absolute;
     bottom: 10px;
-    right: 50px;
+    right: 60px;
 }
 
 #link2{
