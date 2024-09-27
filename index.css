@@ -105,7 +105,7 @@ header{
 }
 
 
-footer{
+.footer{
     position: absolute;
     background-color: #180F34;
     width: 100vw;
