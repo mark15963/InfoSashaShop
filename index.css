@@ -138,7 +138,7 @@ body{
     margin-left: -10px;
     padding-left: 20px;
     transform: translateY(-100%);
-    
+    top: 0;
 }
 
 #copyright{
