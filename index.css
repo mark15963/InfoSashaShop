@@ -106,14 +106,11 @@ header{
 
 
 .footer{
-    position: absolute;
+    position: relative;
+    display: flex;
     background-color: #180F34;
     width: 100vw;
-    height: 40px;
-    padding: 20px;
-    left: 0;
-    bottom: 0;
-    margin-top: 10px;
+    height: 80px;
 }
 
 .copyright{
@@ -121,6 +118,8 @@ header{
     font-family: 'Montserrat', fantasy;
     font-size: 15px;
     color: whitesmoke;
+    transform: translateY(50%);
+    margin-left: 10px;
 }
 
 #contact{
@@ -144,11 +143,11 @@ header{
 #link1{
     position: absolute;
     bottom: 10px;
-    right: 60px;
+    right: 20px;
 }
 
 #link2{
     position: absolute;
     bottom: 10px;
-    right: 120px;
+    right: 90px;
 }
