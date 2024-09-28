@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 }
 
-header{
+.header{
     display: block;
     background-color: #180F34;
     position: absolute;
@@ -44,6 +44,10 @@ header{
     color: whitesmoke;
 }
 
+.section{
+    position: relative;
+}
+
 #pic{
     display: block;
     background-repeat: no-repeat;
@@ -64,12 +68,31 @@ header{
     width: 245px;
     height: 69px;
     border-radius: 35px;
-    bottom: 120px;
+    bottom: 30px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-100%);
     transition: all 0.3s;
     cursor: pointer;
+    font-family: 'Montserrat', fantasy;
+    font-size: 16px;
+    font-weight: 500;
 }
+
+/*
+#contact{
+    position: absolute;
+    font-family: 'Montserrat', fantasy;
+    font-size: 20px;
+    background-color: #180F34;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    text-decoration: none;
+}
+*/
 
 #but span{
     cursor: pointer;
@@ -80,6 +103,7 @@ header{
 
 #but span:after{
     content: '\00bb';
+    font-weight: 500;
     position: absolute;
     opacity: 0;
     top: 0;
@@ -105,15 +129,22 @@ header{
 }
 
 
+
 .footer{
     position: relative;
-    display: flex;
+    
+}
+
+.footer-content{
+    position: absolute;
     background-color: #180F34;
     width: 100vw;
     height: 80px;
+    margin-left: -10px;
+    padding-left: 20px;
 }
 
-.copyright{
+#copyright{
     position: absolute;
     font-family: 'Montserrat', fantasy;
     font-size: 15px;
@@ -122,32 +153,14 @@ header{
     margin-left: 10px;
 }
 
-#contact{
-    position: absolute;
-    font-family: 'Montserrat', fantasy;
-    font-size: 20px;
-    background-color: #180F34;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 30px;
-    text-decoration: none;
-}
-
-#contact:hover{
-    color:#c2bfce;
-}
-
 #link1{
     position: absolute;
     bottom: 10px;
-    right: 20px;
+    right: 50px;
 }
 
 #link2{
     position: absolute;
     bottom: 10px;
-    right: 90px;
+    right: 120px;
 }
