@@ -67,6 +67,12 @@ main{
     max-width: 100vw;
 }
 
+#pic2{
+    margin:auto;
+    z-index: 0;
+    max-width: 100vw;
+}
+
 #but{
     display: inline-block;
     border-color: #1e143d;
