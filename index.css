@@ -76,6 +76,7 @@ main{
 }
 
 #but{
+    position: absolute;
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
