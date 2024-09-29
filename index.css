@@ -83,7 +83,7 @@ main{
     width: 230px;
     height: 69px;
     border-radius: 35px;
-    margin-left: 50%;
+    
     z-index: 1;
     transform: translateX(-50%);
     transition: all 0.3s;
