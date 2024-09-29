@@ -65,13 +65,13 @@ main{
 #pic{
     margin:auto;
     z-index: 0;
-    min-width: 100%;
+    max-width: 100%;
 }
 
 #pic2{
     margin:auto;
     z-index: 0;
-    min-width: 100%;
+    max-width: 100%;
 }
 
 #but{
