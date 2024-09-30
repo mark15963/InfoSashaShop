@@ -4,8 +4,7 @@
 
 html{
     height: 100%;
-    overflow-x:hidden;
-    overflow-y:hidden;
+    
 }
 
 .row::after {
@@ -28,6 +27,8 @@ body{
     
     display: flex;
     flex-direction: column;
+    overflow-x:hidden;
+    
 }
 
 
