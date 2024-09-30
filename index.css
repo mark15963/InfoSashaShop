@@ -84,15 +84,13 @@ main{
     width: 230px;
     height: 69px;
     border-radius: 35px;
-    
-    
-    
     transition: all 0.3s;
     cursor: pointer;
     font-family: 'Montserrat', fantasy;
     font-size: 16px;
     font-weight: 500;
-    left:0;
+    margin-left:50%;
+    bottom:0;
 }
 
 #but span{
