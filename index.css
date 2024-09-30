@@ -38,17 +38,6 @@ header{
     left: 0px;
 }
 
-@media screen and (min-width: 1080px) {
-header{
-    background-color: #180F34;
-    padding: 10px;
-    height: auto;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-}
-}
-
 #logo{
     position: relative;
     border-radius: 50%;
@@ -67,6 +56,22 @@ header{
 }
 
 @media screen and (min-width: 1081px) {
+    header{
+        background-color: #180F34;
+        padding: 15px;
+        height: auto;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #logo{
+        position: relative;
+        border-radius: 50%;
+        width: 80px; 
+        height: 80px;
+    }
+
     #name{
         position: absolute;
         left:110px;
@@ -210,24 +215,3 @@ footer{
     bottom: 10px;
     right: 90px;
 }
-
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
