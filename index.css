@@ -84,7 +84,7 @@ main{
     height: 69px;
     border-radius: 35px;
     
-    z-index: 1;
+    
     
     transition: all 0.3s;
     cursor: pointer;
