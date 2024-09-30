@@ -75,7 +75,7 @@ main{
 }
 
 #but{
-    position: absolute;
+    position: relative;
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
@@ -131,6 +131,7 @@ main{
 footer{
     position: relative;
     margin-top: auto;
+    
 }
 
 .footer-content{
