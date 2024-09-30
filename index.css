@@ -57,7 +57,7 @@ header{
 }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 600px) {
     header{
         background-color: #180F34;
         padding: 15px;
@@ -121,7 +121,7 @@ main{
     left: 50%;
     bottom:130px;
 }
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 600px) {
     #but{
         position: relative;
         display: inline-block;
@@ -219,7 +219,7 @@ footer{
 }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 600px) {
     footer{
         position: relative;
         margin-top: auto;
