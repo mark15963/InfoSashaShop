@@ -42,16 +42,16 @@ header{
 #logo{
     position: relative;
     border-radius: 50%;
-    width: 100px; 
-    height: 100px;
+    width: 80px; 
+    height: 80px;
 }
 
 #name{
     position: absolute;
     left:130px;
-    top:50px;
+    top:40px;
     font-family: 'Montserrat', fantasy;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
     color: whitesmoke;
 }
@@ -59,8 +59,8 @@ header{
 main{
     justify-content: center;
     align-content: center;
-    
 }
+
 
 #pic{
     margin:auto;
@@ -85,7 +85,7 @@ main{
     transition: all 0.3s;
     cursor: pointer;
     font-family: 'Montserrat', fantasy;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     transform: translateX(-50%);
     left: 50%;
