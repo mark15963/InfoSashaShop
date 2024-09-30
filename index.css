@@ -29,6 +29,7 @@ body{
     flex-direction: column;
 }
 
+@media screen and (max-width: 1080px) {
 header{
     background-color: #180F34;
     padding: 15px;
@@ -54,8 +55,9 @@ header{
     font-weight: 400;
     color: whitesmoke;
 }
+}
 
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 1080px) {
     header{
         background-color: #180F34;
         padding: 15px;
@@ -77,7 +79,7 @@ header{
         left:110px;
         top:40px;
         font-family: 'Montserrat', fantasy;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         color: whitesmoke;
         line-height: 35px;
@@ -176,7 +178,7 @@ main{
 }
 
 
-
+@media screen and (max-width: 1080px) {
 footer{
     position: relative;
     margin-top: auto;
@@ -214,4 +216,45 @@ footer{
     position: absolute;
     bottom: 10px;
     right: 90px;
+}
+}
+
+@media screen and (max-width: 1080px) {
+    footer{
+        position: relative;
+        margin-top: auto;
+    }
+    
+    .footer-content{
+        position: absolute;
+        background-color: #180F34;
+        width: 100%;
+        height: 80px;
+        padding: 20px;
+        transform: translateY(-100%);
+    }
+    
+    #copyright{
+        font-family: 'Montserrat', fantasy;
+        font-size: 15px;
+        color: whitesmoke;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .links{
+        align-content: space-around;
+    }
+    
+    #link1{
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+    
+    #link2{
+        position: absolute;
+        bottom: 10px;
+        right: 90px;
+    }
 }
