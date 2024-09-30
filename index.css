@@ -28,8 +28,6 @@ body{
     
     display: flex;
     flex-direction: column;
-    overflow-x:hidden;
-    overflow-y:hidden;
 }
 
 
@@ -87,15 +85,13 @@ main{
     border-radius: 35px;
     
     z-index: 1;
-    transform: translateX(-50%);
+    
     transition: all 0.3s;
     cursor: pointer;
     font-family: 'Montserrat', fantasy;
     font-size: 16px;
     font-weight: 500;
-    margin-top: -50%;
-    margin-left:50%;
-    margin-right:50%;
+    left:0;
 }
 
 #but span{
