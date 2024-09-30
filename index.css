@@ -29,7 +29,7 @@ body{
     flex-direction: column;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
 header{
     background-color: #180F34;
     padding: 10px;
@@ -57,7 +57,7 @@ header{
     color: whitesmoke;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     #name{
         position: absolute;
         left:110px;
@@ -105,7 +105,7 @@ main{
     left: 50%;
     bottom:130px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     #but{
         position: relative;
         display: inline-block;
