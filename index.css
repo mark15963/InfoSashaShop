@@ -120,6 +120,22 @@ main{
 }
 
 @media screen and (max-width: 600px) {
+main{
+    justify-content: center;
+    align-content: center;
+}
+
+#pic{
+    margin:auto;
+    z-index: 0;
+    max-width: 100%;
+}
+
+#pic2{
+    margin:auto;
+    z-index: 0;
+    max-width: 100%;
+}
     #but{
         position: relative;
         display: inline-block;
