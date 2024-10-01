@@ -91,6 +91,7 @@ main{
     align-content: center;
 }
 
+@media screen and (max-width: 1080px){
 
 #pic{
     margin:auto;
@@ -121,6 +122,8 @@ main{
     left: 50%;
     bottom:130px;
 }
+}
+
 @media screen and (min-width: 1080px) {
     #but{
         position: relative;
