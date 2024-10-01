@@ -86,7 +86,6 @@ header{
     }
 }
 
-@media screen and (max-width: 600px){
 main{
     justify-content: center;
     align-content: center;
@@ -120,7 +119,6 @@ main{
     transform: translateX(-50%);
     left: 50%;
     bottom:130px;
-}
 }
 
 @media screen and (min-width: 600px) {
