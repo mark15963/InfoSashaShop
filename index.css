@@ -75,7 +75,7 @@ header{
     #name{
         position: absolute;
         left: 65px;
-        top: 0px;
+        top: -20px;
         font-family: 'Montserrat', fantasy;
         font-size: 20px;
         font-weight: 400;
