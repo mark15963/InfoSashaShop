@@ -91,7 +91,7 @@ main{
     align-content: center;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 600px){
 
 #pic{
     margin:auto;
@@ -124,7 +124,7 @@ main{
 }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 600px) {
     #but{
         position: relative;
         display: inline-block;
@@ -181,7 +181,7 @@ main{
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 600px) {
 footer{
     position: relative;
     margin-top: auto;
@@ -222,7 +222,7 @@ footer{
 }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 600px) {
     footer{
         position: relative;
         margin-top: auto;
