@@ -73,8 +73,9 @@ header{
     }
 
     #name{
-        margin-left:110px;
-        margin-top:35px;
+        position: absolute;
+        left:110px;
+        top:35px;
         font-family: 'Montserrat', fantasy;
         font-size: 20px;
         font-weight: 400;
