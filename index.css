@@ -29,11 +29,9 @@ body{
     flex-direction: column;
 }
 
-@media screen and (max-width: 600px) {
-
 header{
     background-color: #180F34;
-    padding: 70px;
+    padding: 7px;
     height: auto;
     width: 100%;
     top: 0px;
@@ -56,7 +54,6 @@ header{
     font-weight: 400;
     color: whitesmoke;
 }
-}
 
 @media screen and (min-width: 600px) {
     header{
@@ -77,8 +74,8 @@ header{
 
     #name{
         position: absolute;
-        left:110px;
-        top:35px;
+        left: 110px;
+        top: 0px;
         font-family: 'Montserrat', fantasy;
         font-size: 20px;
         font-weight: 400;
