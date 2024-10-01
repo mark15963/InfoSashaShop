@@ -109,8 +109,8 @@ main{
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
-    width: 150px;
-    height: 50px;
+    width: 180px;
+    height: 60px;
     border-radius: 35px;
     transition: all 0.3s;
     cursor: pointer;
