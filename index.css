@@ -91,8 +91,6 @@ main{
     align-content: center;
 }
 
-@media screen and (max-width: 600px){
-
 #pic{
     margin:auto;
     z-index: 0;
@@ -104,6 +102,8 @@ main{
     z-index: 0;
     max-width: 100%;
 }
+
+@media screen and (max-width: 600px){
 
 #but{
     position: relative;
