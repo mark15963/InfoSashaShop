@@ -70,8 +70,8 @@ header{
     #logo{
         position: relative;
         border-radius: 50%;
-        width: 80px; 
-        height: 80px;
+        width: 60px; 
+        height: 60px;
     }
 
     #name{
@@ -86,6 +86,7 @@ header{
     }
 }
 
+@media screen and (max-width: 600px){
 main{
     justify-content: center;
     align-content: center;
@@ -103,20 +104,18 @@ main{
     max-width: 100%;
 }
 
-@media screen and (max-width: 600px){
-
 #but{
     position: relative;
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
-    width: 140px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     border-radius: 35px;
     transition: all 0.3s;
     cursor: pointer;
     font-family: 'Montserrat', fantasy;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     transform: translateX(-50%);
     left: 50%;
