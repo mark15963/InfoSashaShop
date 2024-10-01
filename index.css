@@ -110,8 +110,8 @@ main{
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
-    width: 1200px;
-    height: 60px;
+    width: 140px;
+    height: 40px;
     border-radius: 35px;
     transition: all 0.3s;
     cursor: pointer;
@@ -130,8 +130,8 @@ main{
         display: inline-block;
         border-color: #1e143d;
         border-width: 5px;
-        width: 145px;
-        height: 40px;
+        width: 200px;
+        height: 60px;
         border-radius: 35px;
         transition: all 0.3s;
         cursor: pointer;
