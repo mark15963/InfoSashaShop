@@ -125,7 +125,7 @@ main{
         display: inline-block;
         border-color: #1e143d;
         border-width: 5px;
-        width: 170px;
+        width: 150px;
         height: 65px;
         border-radius: 35px;
         transition: all 0.3s;
@@ -137,7 +137,7 @@ main{
         line-height: 0px;
         transform: translateX(-50%);
         left: 50%;
-        bottom:100px;
+        bottom:80px;
     }
 }
 
