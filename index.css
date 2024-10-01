@@ -121,14 +121,14 @@ main{
     left: 50%;
     bottom:130px;
 }
-@media screen and (min-width: 1081px) {
+@media screen and (min-width: 1080px) {
     #but{
         position: relative;
         display: inline-block;
         border-color: #1e143d;
         border-width: 5px;
-        width: 170px;
-        height: 45px;
+        width: 145px;
+        height: 40px;
         border-radius: 35px;
         transition: all 0.3s;
         cursor: pointer;
