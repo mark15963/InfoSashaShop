@@ -29,7 +29,7 @@ body{
     flex-direction: column;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 600px) {
 header{
     background-color: #180F34;
     padding: 7px;
@@ -57,7 +57,7 @@ header{
 }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 600px) {
     header{
         background-color: #180F34;
         padding: 7px;
