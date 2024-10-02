@@ -148,7 +148,7 @@ main{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     #but{
         position: relative;
         display: inline-block;
