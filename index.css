@@ -89,6 +89,35 @@ header{
     }
 }
 
+@media screen and (min-width: 200px) {
+header{
+        background-color: #180F34;
+        padding: 7px;
+        height: auto;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #logo{
+        position: relative;
+        border-radius: 50%;
+        width: 70px; 
+        height: 70px;
+    }
+
+    #name{
+        position: absolute;
+        left:130px;
+        top: 45px;
+        font-family: 'Montserrat', fantasy;
+        font-size: 29px;
+        font-weight: 400;
+        color: whitesmoke;
+        line-height: 35px;
+    }
+}
+
 main{
     justify-content: center;
     align-content: center;
@@ -153,13 +182,13 @@ main{
         display: inline-block;
         border-color: #1e143d;
         border-width: 5px;
-        width: 130px;
-        height: 45px;
+        width: 160px;
+        height: 50px;
         border-radius: 35px;
         transition: all 0.3s;
         cursor: pointer;
         font-family: 'Montserrat', fantasy;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
         text-align: center;
         line-height: 0px;
