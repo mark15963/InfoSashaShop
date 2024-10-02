@@ -125,7 +125,7 @@ main{
     bottom:150px;
 }
 
-@media screen and (max-width: 961px) {
+@media screen and (min-width: 961px) {
     #but{
         position: relative;
         display: inline-block;
