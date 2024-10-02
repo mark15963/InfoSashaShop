@@ -89,7 +89,7 @@ header{
     }
 }
 
-
+@media screen and (min-width: 960px) {
 main{
     justify-content: center;
     align-content: center;
@@ -125,6 +125,7 @@ main{
     left: 50%;
     bottom:150px;
 }
+}
 
 @media screen and (max-width: 961px) {
     #but{
@@ -148,7 +149,7 @@ main{
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 200px) {
     #but{
         position: relative;
         display: inline-block;
