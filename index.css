@@ -29,10 +29,12 @@ body{
     flex-direction: column;
 }
 
-@media screen and (min-width: 1080px) {
+/* < half pc */
+@media screen and (max-width: 961px) {
 header{
+    position: relative;
     background-color: #180F34;
-    padding: 7px;
+    padding: 10px;
     height: auto;
     width: 100%;
     top: 0px;
@@ -42,14 +44,14 @@ header{
 #logo{
     position: relative;
     border-radius: 50%;
-    width: 40px; 
-    height: 40px;
+    width: 70px; 
+    height: 70px;
 }
 
 #name{
     position: absolute;
-    left:70px;
-    top:17px;
+    left:90px;
+    top: 35px;
     font-family: 'Montserrat', fantasy;
     font-size: 20px;
     font-weight: 400;
@@ -57,10 +59,11 @@ header{
 }
 }
 
-@media screen and (max-width: 1080px) {
+/* > half pc */
+@media screen and (min-width: 960px) {
     header{
         background-color: #180F34;
-        padding: 7px;
+        padding: 15px;
         height: auto;
         width: 100%;
         top: 0px;
@@ -70,33 +73,34 @@ header{
     #logo{
         position: relative;
         border-radius: 50%;
-        width: 80px; 
-        height: 80px;
+        width: 90px; 
+        height: 90px;
     }
 
     #name{
         position: absolute;
-        left:110px;
-        top:35px;
+        left:130px;
+        top: 45px;
         font-family: 'Montserrat', fantasy;
-        font-size: 20px;
+        font-size: 29px;
         font-weight: 400;
         color: whitesmoke;
         line-height: 35px;
     }
 }
 
+
 main{
     justify-content: center;
     align-content: center;
 }
-
 
 #pic{
     margin:auto;
     z-index: 0;
     max-width: 100%;
 }
+
 
 #pic2{
     margin:auto;
@@ -109,37 +113,38 @@ main{
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
-    width: 200px;
-    height: 60px;
+    width: 230px;
+    height: 70px;
     border-radius: 35px;
     transition: all 0.3s;
     cursor: pointer;
     font-family: 'Montserrat', fantasy;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     transform: translateX(-50%);
     left: 50%;
-    bottom:130px;
+    bottom:220px;
 }
-@media screen and (min-width: 1081px) {
+
+@media screen and (max-width: 961px) {
     #but{
         position: relative;
         display: inline-block;
         border-color: #1e143d;
         border-width: 5px;
-        width: 170px;
-        height: 45px;
+        width: 180px;
+        height: 50px;
         border-radius: 35px;
         transition: all 0.3s;
         cursor: pointer;
         font-family: 'Montserrat', fantasy;
-        font-size: 11px;
+        font-size: 14px;
         font-weight: 500;
         text-align: center;
         line-height: 0px;
         transform: translateX(-50%);
         left: 50%;
-        bottom:100px;
+        bottom:130px;
     }
 }
 
@@ -177,8 +182,8 @@ main{
     right:0;
 }
 
-
-@media screen and (max-width: 1080px) {
+/* < half pc */
+@media screen and (max-width: 961px) {
 footer{
     position: relative;
     margin-top: auto;
@@ -189,7 +194,7 @@ footer{
     position: absolute;
     background-color: #180F34;
     width: 100%;
-    height: 80px;
+    height: 70px;
     padding: 20px;
     transform: translateY(-100%);
 }
@@ -199,7 +204,7 @@ footer{
     font-size: 15px;
     color: whitesmoke;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .links{
@@ -208,18 +213,19 @@ footer{
 
 #link1{
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     right: 20px;
 }
 
 #link2{
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     right: 90px;
 }
 }
 
-@media screen and (max-width: 1080px) {
+/* > half pc */
+@media screen and (min-width: 960px) {
     footer{
         position: relative;
         margin-top: auto;
@@ -252,7 +258,7 @@ footer{
         right: 20px;
     }
     
-    #link2{
+    #link2 {
         position: absolute;
         bottom: 10px;
         right: 90px;
