@@ -109,7 +109,7 @@ main{
 }
 
 #but{
-    position: absolute;
+    position: relative;
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
@@ -122,9 +122,8 @@ main{
     font-size: 18px;
     font-weight: 500;
     transform: translateX(-50%);
-    z-index: 1;
     left: 50%;
-    top:-130px;
+    bottom:150px;
 }
 
 @media screen and (max-width: 961px) {
