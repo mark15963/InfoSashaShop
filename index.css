@@ -108,10 +108,10 @@ header{
 
     #name{
         position: absolute;
-        left:130px;
-        top: 45px;
+        left:100px;
+        top: 35px;
         font-family: 'Montserrat', fantasy;
-        font-size: 29px;
+        font-size: 25px;
         font-weight: 400;
         color: whitesmoke;
         line-height: 35px;
