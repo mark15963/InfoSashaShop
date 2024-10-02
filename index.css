@@ -29,6 +29,7 @@ body{
     flex-direction: column;
 }
 
+@media screen and (min-width: 1080px) {
 header{
     background-color: #180F34;
     padding: 7px;
@@ -41,21 +42,22 @@ header{
 #logo{
     position: relative;
     border-radius: 50%;
-    width: 60px; 
-    height: 60px;
+    width: 40px; 
+    height: 40px;
 }
 
 #name{
     position: absolute;
-    left:65px;
-    top:13px;
+    left:70px;
+    top:17px;
     font-family: 'Montserrat', fantasy;
     font-size: 20px;
     font-weight: 400;
     color: whitesmoke;
 }
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     header{
         background-color: #180F34;
         padding: 7px;
@@ -68,19 +70,19 @@ header{
     #logo{
         position: relative;
         border-radius: 50%;
-        width: 40px; 
-        height: 40px;
+        width: 80px; 
+        height: 80px;
     }
 
     #name{
         position: absolute;
-        left: 70px;
-        top: 40px;
+        left:110px;
+        top:35px;
         font-family: 'Montserrat', fantasy;
         font-size: 20px;
         font-weight: 400;
         color: whitesmoke;
-        
+        line-height: 35px;
     }
 }
 
@@ -88,6 +90,7 @@ main{
     justify-content: center;
     align-content: center;
 }
+
 
 #pic{
     margin:auto;
@@ -106,54 +109,37 @@ main{
     display: inline-block;
     border-color: #1e143d;
     border-width: 5px;
-    width: 170px;
+    width: 200px;
     height: 60px;
     border-radius: 35px;
     transition: all 0.3s;
     cursor: pointer;
     font-family: 'Montserrat', fantasy;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     transform: translateX(-50%);
     left: 50%;
     bottom:130px;
 }
-
-@media screen and (max-width: 600px) {
-main{
-    justify-content: center;
-    align-content: center;
-}
-
-#pic{
-    margin:auto;
-    z-index: 0;
-    max-width: 100%;
-}
-
-#pic2{
-    margin:auto;
-    z-index: 0;
-    max-width: 100%;
-}
+@media screen and (min-width: 1081px) {
     #but{
         position: relative;
         display: inline-block;
         border-color: #1e143d;
         border-width: 5px;
-        width: 190px;
-        height: 60px;
+        width: 170px;
+        height: 45px;
         border-radius: 35px;
         transition: all 0.3s;
         cursor: pointer;
         font-family: 'Montserrat', fantasy;
-        font-size: 13px;
+        font-size: 11px;
         font-weight: 500;
         text-align: center;
         line-height: 0px;
         transform: translateX(-50%);
         left: 50%;
-        bottom:10px;
+        bottom:100px;
     }
 }
 
@@ -192,7 +178,7 @@ main{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
 footer{
     position: relative;
     margin-top: auto;
@@ -203,7 +189,7 @@ footer{
     position: absolute;
     background-color: #180F34;
     width: 100%;
-    height: 60px;
+    height: 80px;
     padding: 20px;
     transform: translateY(-100%);
 }
@@ -233,7 +219,7 @@ footer{
 }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 1080px) {
     footer{
         position: relative;
         margin-top: auto;
