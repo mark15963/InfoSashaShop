@@ -226,6 +226,7 @@ body{
 }
 
 /* > half pc Footer*/
+@media screen and (min-width: 851px){
 .footer{
     display: flex;
     background-color: #180F34;
@@ -251,9 +252,10 @@ body{
     justify-content: space-between;
     width: 115px;    
 }
+}
 
 /* < half pc footer */
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 850px) {
     .footer{
         display: flex;
         background-color: #180F34;
@@ -281,10 +283,7 @@ body{
         width: 110px;
     }
 
-    .links a{
-        height: 50px;
-        width: 50px;
-    }
+    
 
 }
 
