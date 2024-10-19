@@ -1,3 +1,4 @@
+/*
 const form = document.querySelector("form");
 const fullName = document.getElementById("name");
 const email = document.getElementById("email");
@@ -94,3 +95,15 @@ form.addEventListener("submit", (e) => {
         return false;
     }
 });
+*/
+
+function sendEmail(){
+    let parms ={
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value,
+    }
+
+    emailjs.send("service_94r8cq3","template_tfmozyq",parms).then(Swal.fire({title: "Отлично!",text: "Сообщение отправлено!",icon: "success"}););
+}
