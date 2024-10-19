@@ -2,71 +2,26 @@
     box-sizing: border-box;
 }
 
-html{
-    height: 100%;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
 body{
     margin: 0;
-    background-color: #1e143d;
-    justify-content: space-between;
-    
-    min-height: 100%;
-    
+    background: linear-gradient(180deg, rgba(25,22,75,1) 0%, rgba(13,8,33,1) 100%);
+}
+
+.container{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-/* < half pc */
-@media screen and (max-width: 961px) {
-header{
-    position: relative;
-    background-color: #180F34;
-    padding: 10px;
-    height: auto;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-}
-
-#logo{
-    position: relative;
-    border-radius: 50%;
-    width: 70px; 
-    height: 70px;
-}
-
-#name{
-    position: absolute;
-    left:90px;
-    top: 35px;
-    font-family: 'Montserrat', fantasy;
-    font-size: 20px;
-    font-weight: 400;
-    color: whitesmoke;
-}
-}
-
-/* > half pc */
-@media screen and (min-width: 960px) {
-    header{
+/* > half pc header */
+@media screen and (min-width: 787px){
+    .header{
+        display: flex;
         background-color: #180F34;
         padding: 15px;
         height: auto;
         width: 100%;
-        top: 0px;
-        left: 0px;
+        
     }
     
     #logo{
@@ -75,7 +30,7 @@ header{
         width: 90px; 
         height: 90px;
     }
-
+    
     #name{
         position: absolute;
         left:130px;
@@ -88,14 +43,42 @@ header{
     }
 }
 
-@media screen and (min-width: 200px) {
-header{
+/* < half pc header */
+@media screen and (max-width: 786px) {
+    .header{
+        display: flex;
+        background-color: #180F34;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+    }
+
+    #logo{
+        position: relative;
+        border-radius: 50%;
+        width: 70px; 
+        height: 70px;
+    }
+
+    #name{
+        position: absolute;
+        left:90px;
+        top: 35px;
+        font-family: 'Montserrat', fantasy;
+        font-size: 20px;
+        font-weight: 400;
+        color: whitesmoke;
+    }
+}
+
+/* phone header */
+@media screen and (max-width: 200px) {
+    .header{
+        display: flex;
         background-color: #180F34;
         padding: 7px;
         height: auto;
         width: 100%;
-        top: 0px;
-        left: 0px;
     }
     
     #logo{
@@ -117,20 +100,18 @@ header{
     }
 }
 
-main{
-    justify-content: center;
-    align-content: center;
+/* > half pc main */
+@media screen and (min-width: 787px){
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-#pic{
-    margin:auto;
-    max-width: 100%;
-}
-
-
-#pic2{
-    margin:auto;
-    max-width: 100%;
+.main img{
+    width: calc(100vw - 20vw);
+    align-items: center;
 }
 
 #but{
@@ -147,11 +128,25 @@ main{
     font-size: 18px;
     font-weight: 500;
     transform: translateX(-50%);
+    bottom: 30px;
     left: 50%;
-    bottom:150px;
+}
 }
 
-@media screen and (min-width: 961px) {
+/* < half pc main */
+@media screen and (max-width: 786px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .main img{
+        width: 100vw;
+        align-items: center;
+    }
+
     #but{
         position: relative;
         display: inline-block;
@@ -169,11 +164,12 @@ main{
         line-height: 0px;
         transform: translateX(-50%);
         left: 50%;
-        bottom:130px;
+        margin: 10px;
+        bottom: 0px;
     }
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 200px) {
     #but{
         position: relative;
         display: inline-block;
@@ -229,125 +225,96 @@ main{
     right:0;
 }
 
-/* < half pc */
-@media screen and (max-width: 961px) {
-footer{
-    position: relative;
-    margin-top: auto;
-
-}
-
-.footer-content{
-    position: absolute;
+/* > half pc Footer*/
+.footer{
+    display: flex;
     background-color: #180F34;
     width: 100%;
-    height: 70px;
+    height: 80px;
     padding: 20px;
-    transform: translateY(-100%);
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-end;
 }
 
 #copyright{
+    display: flex;
     font-family: 'Montserrat', fantasy;
     font-size: 15px;
     color: whitesmoke;
     margin-left: 10px;
-    margin-top: 5px;
+    align-items: center;
 }
 
 .links{
-    align-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    width: 115px;    
 }
 
-#link1{
-    position: absolute;
-    bottom: 5px;
-    right: 20px;
-}
-
-#link2{
-    position: absolute;
-    bottom: 5px;
-    right: 90px;
-}
-}
-
-@media screen and (max-width: 200px) {
-footer{
-    position: relative;
-    margin-top: auto;
-}
-
-.footer-content{
-    position: absolute;
-    background-color: #180F34;
-    width: 100%;
-    height: 70px;
-    padding: 10px;
-    transform: translateY(-100%);
-}
-
-#copyright{
-    font-family: 'Montserrat', fantasy;
-    font-size: 15px;
-    color: whitesmoke;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-.links{
-    align-content: space-around;
-}
-
-#link1{
-    position: absolute;
-    bottom: 5px;
-    right: 20px;
-}
-
-#link2{
-    position: absolute;
-    bottom: 5px;
-    right: 90px;
-}
-}
-
-/* > half pc */
-@media screen and (min-width: 960px) {
-    footer{
-        position: relative;
-        margin-top: auto;
-    }
-    
-    .footer-content{
-        position: absolute;
+/* < half pc footer */
+@media screen and (max-width: 786px) {
+    .footer{
+        display: flex;
         background-color: #180F34;
         width: 100%;
-        height: 80px;
+        height: 70px;
         padding: 20px;
-        transform: translateY(-100%);
+        align-items: center;
+        justify-content: space-between;
     }
-    
+
     #copyright{
+        display: flex;
         font-family: 'Montserrat', fantasy;
         font-size: 15px;
         color: whitesmoke;
         margin-left: 10px;
-        margin-top: 10px;
+        align-items: center;
+        bottom: 0;
     }
-    
+
     .links{
-        align-content: space-around;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 110px;
     }
-    
-    #link1{
-        position: absolute;
-        bottom: 10px;
-        right: 20px;
+
+    .links a{
+        height: 50px;
+        width: 50px;
     }
-    
-    #link2 {
-        position: absolute;
-        bottom: 10px;
-        right: 90px;
+
+}
+
+/* phone footer */
+@media screen and (max-width: 200px) {
+    .footer{
+        display: flex;
+        background-color: #180F34;
+        width: 100%;
+        height: 70px;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
     }
+
+    #copyright{
+        display: flex;
+        font-family: 'Montserrat', fantasy;
+        font-size: 15px;
+        color: whitesmoke;
+        margin-left: 10px;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-between;
+        width: 115px;
+    }
+}
+
+a[data-href]{
+    cursor:pointer;
 }
