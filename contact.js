@@ -105,5 +105,5 @@ function sendEmail(){
         message : document.getElementById("message").value,
     }
 
-    emailjs.send("service_94r8cq3","template_tfmozyq",parms).then(Swal.fire({title: "Отлично!",text: "Сообщение отправлено!",icon: "success"}););
+    emailjs.send("service_94r8cq3","template_tfmozyq",parms).then(alarm="message sent");
 }
