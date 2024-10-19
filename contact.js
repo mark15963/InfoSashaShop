@@ -10,12 +10,13 @@ function sendEmail(){
     const bodyMessage = "Имя: " + fullName.value + "<br> Почта: " + email.value + "<br> Номер телефона: " + phone.value + "<br> Сообщение: "+ mess.value;
 
     Email.send({
-        //SecureToken : "ee58a901-1e7f-4af4-a9fb-94252632ef9e",
+        SecureToken : "ee58a901-1e7f-4af4-a9fb-94252632ef9e",
+        //token from mark
         Host: "smtp.elasticemail.com",
-        Username: "20wildpony02@gmail.com",
-        Password: "A768C657B9D399A616AD608155BCD5C5AB7A",
-        To : "20wildpony02@gmail.com",
-        From : "20wildpony02@gmail.com",
+        //Username: "20wildpony02@gmail.com",
+        //Password: "A768C657B9D399A616AD608155BCD5C5AB7A",
+        To : "mark15963@gmail.com",
+        From : "mark15963@gmail.com",
         Subject : subject.value,
         Body : bodyMessage
     }).then(
