@@ -7,6 +7,7 @@ function myFunc2(){
     console.log(testConst);
 }
 
+/*
 var aTags = document.querySelectorAll('a[data-href]');
 
 for(var i = 0; i < aTags.length; i++){
@@ -16,3 +17,4 @@ for(var i = 0; i < aTags.length; i++){
         window.location.replace(ele.getAttribute('data-href'));
     });    
 }
+*/
