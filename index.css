@@ -101,7 +101,7 @@ body{
 }
 
 /* > half pc main */
-@media screen and (min-width: 787px){
+@media screen and (min-width: 851px){
 .main{
     display: flex;
     flex-direction: column;
@@ -128,13 +128,13 @@ body{
     font-size: 18px;
     font-weight: 500;
     transform: translateX(-50%);
-    bottom: 30px;
+    bottom: 0px;
     left: 50%;
 }
 }
 
 /* < half pc main */
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 850px) {
     .main{
         display: flex;
         flex-direction: column;
@@ -152,8 +152,8 @@ body{
         display: inline-block;
         border-color: #1e143d;
         border-width: 5px;
-        width: 180px;
-        height: 50px;
+        width: 250px;
+        height: 70px;
         border-radius: 35px;
         transition: all 0.3s;
         cursor: pointer;
