@@ -264,6 +264,8 @@ body{
         padding: 20px;
         align-items: center;
         justify-content: space-between;
+        align-self: flex-end;
+
     }
 
     #copyright{
@@ -297,6 +299,8 @@ body{
         padding: 10px;
         align-items: center;
         justify-content: space-between;
+        align-self: flex-end;
+
     }
 
     #copyright{
