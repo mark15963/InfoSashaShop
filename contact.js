@@ -1,4 +1,4 @@
-/*
+
 const form = document.querySelector("form");
 const fullName = document.getElementById("name");
 const email = document.getElementById("email");
@@ -6,7 +6,7 @@ const phone = document.getElementById("phone");
 const subject = document.getElementById("subject");
 const mess = document.getElementById("message");
 
-
+/*
 function sendEmail(){
     const bodyMessage = "Имя: " + fullName.value + "<br> Почта: " + email.value + "<br> Номер телефона: " + phone.value + "<br> Сообщение: "+ mess.value;
 
@@ -31,6 +31,19 @@ function sendEmail(){
         }
       }
     );
+}
+*/
+
+function sendMail(){
+    let parms ={
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        phone : document.getElementById("phone").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value,
+    }
+    
+    emailjs.send("service_94r8cq3","template_tfmozyq",parms).then(alert("Message sent"));
 }
 
 function checkInputs(){
@@ -88,22 +101,10 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     checkInputs();
 
-    if(!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !mess.classList.contains("error")){
-        sendEmail();
+    if(!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")){
+        sendMail();
 
         form.reset();
         return false;
     }
 });
-*/
-
-function sendEmail(){
-    let parms ={
-        name : document.getElementById("name").value,
-        email : document.getElementById("email").value,
-        subject : document.getElementById("subject").value,
-        message : document.getElementById("message").value,
-    }
-
-    emailjs.send("service_94r8cq3","template_tfmozyq",parms).then(alarm("message sent"));
-}

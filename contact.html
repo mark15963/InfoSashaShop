@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta name=" viewpoint" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
-</head>
-<body>
-
-    <section class="contact">
-        <h2>Свяжитесь со мной!</h2>
-
-        <form action="#">
+    <head>
+        <meta name=" viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <section class="contact">
+            <h2>Свяжитесь со мной!</h2>
+            <form action="#">
             <div class="input-box">
                 <div class="input-field field">
-                    <input type="text" placeholder="Имя" id="name" 
-                    class="item" autocomplete="off">
+                    <input type="text" placeholder="Имя" id="name" class="item" autocomplete="off">
                     <div class="error-txt">Поле не может быть пустым</div>
                 </div>
                 <div class="input-field field">
-                    <input type="text" placeholder="Почта" id="email" 
-                    class="item" autocomplete="off">
+                    <input type="text" placeholder="Почта" id="email" class="item" autocomplete="off">
                     <div class="error-txt email">Поле не может быть пустым</div>
                 </div>
             </div> 
             <div class="input-box">
                 <div class="input-field field">
-                    <input type="text" placeholder="Номер телефона" id="phone" 
-                    class="item" autocomplete="off">
+                    <input type="text" placeholder="Номер телефона" id="phone" class="item" autocomplete="off">
                     <div class="error-txt">Поле не может быть пустым</div>
                 </div>
                 <div class="input-field field">
-                    <input type="text" placeholder="Тема" id="subject" 
-                    class="item" autocomplete="off">
+                    <input type="text" placeholder="Тема" id="subject" class="item" autocomplete="off">
                     <div class="error-txt">Поле не может быть пустым</div>
                 </div>
             </div>
-
             <div class="textarea-field field">
-                <textarea name="" id="message" cols="30" rows="10" 
-                placeholder="Сообщение" class="item" autocomplete="off"></textarea>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Сообщение" class="item" autocomplete="off"></textarea>
                 <div class="error-txt">Поле не может быть пустым</div>
             </div>
-
-            <button type="submit" onclick="sendMail()">Отправить</button>
+            <button type="submit" onclick="listener()">Отправить</button>
         </form>
     </section>
-
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+
     <script src="contact.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
         (function(){
-          emailjs.init({
-            publicKey: "dYkgYk37CVXDzlzHY",
-          });
-        })();
+            emailjs.init({
+                publicKey: "dYkgYk37CVXDzlzHY",
+            });
+       })();
     </script>
-</body>
+    <script src="contact.js"></script>
+    </body>
 
 </html>
