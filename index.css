@@ -75,7 +75,7 @@ body{
 }
 
 /* phone header */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .header{
         display: flex;
         background-color: #180F34;
