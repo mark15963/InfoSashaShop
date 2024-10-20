@@ -72,7 +72,7 @@ body{
 }
 
 /* phone header */
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 400px) {
     .header{
         display: flex;
         background-color: #180F34;
@@ -169,7 +169,7 @@ body{
     }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 400px) {
     #but{
         position: relative;
         display: inline-block;
@@ -290,7 +290,7 @@ body{
 }
 
 /* phone footer */
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 400px) {
     .footer{
         display: flex;
         background-color: #180F34;
