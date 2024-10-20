@@ -17,7 +17,7 @@ body{
 }
 
 /* > half pc header */
-@media screen and (min-width: 787px){
+@media screen and (min-width: 851px){
     .header{
         display: flex;
         background-color: #180F34;
@@ -47,7 +47,7 @@ body{
 }
 
 /* < half pc header */
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 850px) {
     .header{
         display: flex;
         background-color: #180F34;
