@@ -219,11 +219,11 @@ body{
 }
 
 #but:hover span{
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 #but:hover span:after{
-    border-width: 7px;
+    border-width: 5px;
     cursor: pointer;
     opacity: 1;
     right:0;
